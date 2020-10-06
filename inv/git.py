@@ -86,6 +86,7 @@ PY_FILES = [
     Path("*.py"),
     Path("inv", "*.py"),
     Path("app", "*.py"),
+    Path("tests", "*.py"),
     # Path("migrations", "*.py"),
     # Path("migrations", "versions", "*.py"),
 ]
