@@ -3,7 +3,7 @@
 from invoke import task
 
 from inv.git import git, black, flake, clean
-from inv.fl import run, shell
+from inv.fl import run, shell, babel
 
 
 @task
