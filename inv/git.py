@@ -84,9 +84,11 @@ def git(ctx):
 
 PY_FILES = [
     Path("*.py"),
-    Path("inv", "*.py"),
     Path("app", "*.py"),
+    Path("app", "errors", "*.py"),
+    Path("app", "auth", "*.py"),
     Path("tests", "*.py"),
+    Path("inv", "*.py"),
     # Path("migrations", "*.py"),
     # Path("migrations", "versions", "*.py"),
 ]
